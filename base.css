@@ -1,0 +1,101 @@
+*{box-sizing: border-box;}
+
+.col_1{width: 8.33%;}
+.col_2{ width: 16.66%;}
+.col_3{ width: 25%;}
+.col_4{ width: 33.33%;}
+.col_5{width: 41.66%;}
+.col_6{width: 50%;}
+.col_7{width: 58.33%;}
+.col_8{width: 66.66%;}
+.col_9{width: 75%;}
+.col_10{width: 83.33%;}
+.col_11{width: 91.66%;}
+.col_12{width: 100%;}
+[class*="col_"]{
+    float: left;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.border{
+    border: solid 1px black;
+}
+.text-center{
+    text-align: center;
+}
+.h_600{
+    height: 600px;
+}
+.m-1{
+    margin: 1em;
+}
+html{
+    background-color: rgb(219, 216, 216);
+}
+.back_white{
+    background-color: white;
+}
+.p_1{
+    padding: 1em;
+}
+.teal{
+    background-color: teal;
+}
+.txtW{
+    color: white;
+}
+#foto{
+    background-image: url("https://picsum.photos/400/300");
+    height: 10em;
+    align-items: flex-end;
+}
+#foto div{
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.flex{
+    display: flex;
+}
+.pb{
+    padding-bottom: 0.5em;
+}
+.bb{
+    border-bottom: solid 1px lightslategray;
+}
+.mx{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+.skill-box{
+    background-color: lightgrey;
+}
+.b-rad{
+    border-radius: 10px;
+}
+.leng-box{
+    height: 1em;
+}
+.pers-info{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section-title{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+}
+.text-teal{
+    color: teal;
+    font-size: 1.1em;
+}
+.text-subT{
+    font: bold;
+    font-size: 1.25em;
+    color: gray;
+}
+.current{
+    border-radius: 3px;
+    padding: 0 0.5em;
+}
